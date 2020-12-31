@@ -36,7 +36,7 @@
 
   <!-- Nav Item - Kategori Produk -->
   <li class="nav-item">
-    <a class="nav-link" href="charts.html">
+    <a class="nav-link" href="<?= base_url('kategori_produk') ?>">
       <i class="fas fa-fw fa-clipboard-list"></i>
       <span>Kategori Produk</span></a>
   </li>

@@ -2,13 +2,13 @@
 <!-- End of Main Content -->
 
 <!-- Footer -->
-<footer class="sticky-footer bg-white">
-  <div class="container my-auto">
-    <div class="copyright text-center my-auto">
-      <span>Copyright &copy; Your Website 2019</span>
+<!-- <footer class="sticky-footer bg-white">
+    <div class="container my-auto">
+      <div class="copyright text-center my-auto">
+        <span>Copyright &copy; Your Website 2019</span>
+      </div>
     </div>
-  </div>
-</footer>
+  </footer> -->
 <!-- End of Footer -->
 
 </div>
@@ -27,34 +27,34 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Apakah anda yakin untuk Keluar ?</h5>
         <button class="close" type="button" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">×</span>
         </button>
       </div>
-      <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+      <div class="modal-body">Pilih "Keluar" jika kamu yakin ingin keluar dari aplikasi.</div>
       <div class="modal-footer">
-        <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-        <a class="btn btn-primary" href="login.html">Logout</a>
+        <button class="btn btn-secondary" type="button" data-dismiss="modal">Batal</button>
+        <a class="btn btn-success" href="login.html">Keluar</a>
       </div>
     </div>
   </div>
 </div>
 
 <!-- Bootstrap core JavaScript-->
-<script src="<?= base_url('vendor') ?>/jquery/jquery.min.js"></script>
-<script src="<?= base_url('vendor') ?>/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="<?= base_url('vendors') ?>/jquery/jquery.min.js"></script>
+<script src="<?= base_url('vendors') ?>/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 <!-- Core plugin JavaScript-->
-<script src="<?= base_url('vendor') ?>/jquery-easing/jquery.easing.min.js"></script>
+<script src="<?= base_url('vendors') ?>/jquery-easing/jquery.easing.min.js"></script>
 
 <!-- Custom scripts for all pages-->
 <script src="<?= base_url('assets') ?>/js/sb-admin-2.min.js"></script>
 
 <!-- Page level plugins -->
-<script src="<?= base_url('vendor') ?>/chart.js/Chart.min.js"></script>
-<script src="<?= base_url('vendor') ?>/datatables/jquery.dataTables.min.js"></script>
-<script src="<?= base_url('vendor') ?>/datatables/dataTables.bootstrap4.min.js"></script>
+<script src="<?= base_url('vendors') ?>/chart.js/Chart.min.js"></script>
+<script src="<?= base_url('vendors') ?>/datatables/jquery.dataTables.min.js"></script>
+<script src="<?= base_url('vendors') ?>/datatables/dataTables.bootstrap4.min.js"></script>
 
 <!-- Page level custom scripts -->
 <script src="<?= base_url('assets') ?>/js/demo/datatables-demo.js"></script>

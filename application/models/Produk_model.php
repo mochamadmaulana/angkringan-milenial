@@ -24,4 +24,9 @@ class Produk_model extends CI_Model
     $this->db->where('id', $id);
     $this->db->update($tabel, $data);
   }
+
+  function hapus($tabel, $id)
+  {
+    $this->db->delete($tabel, ['id' => $id]);
+  }
 }

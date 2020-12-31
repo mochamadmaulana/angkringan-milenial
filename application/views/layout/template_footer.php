@@ -41,6 +41,7 @@
   </div>
 </div>
 
+
 <!-- Bootstrap core JavaScript-->
 <script src="<?= base_url('vendors') ?>/jquery/jquery.min.js"></script>
 <script src="<?= base_url('vendors') ?>/bootstrap/js/bootstrap.bundle.min.js"></script>

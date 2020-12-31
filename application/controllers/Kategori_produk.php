@@ -81,7 +81,17 @@ class Kategori_produk extends CI_Controller
     }
   }
 
-  public function hapus()
+  public function hapus($id)
   {
+    $this->produk_model->hapus('kategori', $id);
+    $this->session->set_flashdata('konfirmasi', '
+      <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <strong>Selamat!</strong> Kamu telah berhasil menghapus kategori produk.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      ');
+    redirect('kategori_produk');
   }
 }

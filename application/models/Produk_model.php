@@ -16,7 +16,7 @@ class Produk_model extends CI_Model
 
   function ambilDataSatu($tabel, $id)
   {
-    return $this->db->get_where($tabel, ['id' => $id]);
+    return $this->db->get_where($tabel, ['id' => $id])->row_array();
   }
 
   function ubah($tabel, $id, $data)

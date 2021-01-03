@@ -11,23 +11,21 @@
     <div class="col-lg-6">
       <div class="card shadow mb-4">
         <div class="card-body">
-          <?php foreach ($kategori as $k) : ?>
-            <form action="<?= base_url('kategori_produk/mengubah') ?>" method="post">
-              <div class="form-group">
-                <label for="nama_kategori">Nama Kategori</label>
-                <input type="hidden" name="id" value="<?= $k->id ?>">
-                <input type="text" name="nama_kategori" value="<?= $k->nama_kategori ?>" class="form-control" id="nama_kategori" placeholder="Contoh: Makanan">
-              </div>
+          <form action="<?= base_url('kategori_produk/mengubah') ?>" method="post">
+            <div class="form-group">
+              <label for="nama_kategori">Nama Kategori</label>
+              <input type="hidden" name="id" value="<?= $kategori['id'] ?>">
+              <input type="text" name="nama_kategori" value="<?= $kategori['nama_kategori'] ?>" class="form-control" id="nama_kategori" placeholder="Contoh: Makanan">
+            </div>
 
-              <div class="row pt-3">
-                <div class="col-lg p-1">
-                  <a href="<?= base_url('kategori_produk') ?>" class="btn btn-secondary btn-block">Batal</a>
-                </div>
-                <div class="col-lg p-1">
-                  <button type="submit" name="submit" class="btn btn-success btn-block">Simpan</button>
-                </div>
-            </form>
-          <?php endforeach; ?>
+            <div class="row pt-3">
+              <div class="col-lg p-1">
+                <a href="<?= base_url('kategori_produk') ?>" class="btn btn-secondary btn-block">Batal</a>
+              </div>
+              <div class="col-lg p-1">
+                <button type="submit" name="submit" class="btn btn-success btn-block">Simpan</button>
+              </div>
+          </form>
         </div>
       </div>
     </div>

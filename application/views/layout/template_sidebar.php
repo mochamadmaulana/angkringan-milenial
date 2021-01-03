@@ -29,7 +29,7 @@
 
   <!-- Nav Item - Daftar Produk -->
   <li class="nav-item">
-    <a class="nav-link" href="charts.html">
+    <a class="nav-link" href="<?= base_url('daftar_produk') ?>">
       <i class="fas fa-fw fa-boxes"></i>
       <span>Daftar Produk</span></a>
   </li>

@@ -32,7 +32,7 @@ class Kategori_produk extends CI_Controller
       $this->produk_model->tambah('kategori', $data);
       $this->session->set_flashdata('konfirmasi', '
       <div class="alert alert-success alert-dismissible fade show" role="alert">
-        <strong>Selamat!</strong> Kamu telah berhasil menambahkan kategori produk.
+        <strong>Selamat!</strong> Kamu telah berhasil menambahkan kategori produk baru.
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -45,7 +45,7 @@ class Kategori_produk extends CI_Controller
 
   public function ubah($id)
   {
-    $data['kategori'] = $this->produk_model->ambilDataSatu('kategori', $id)->result();
+    $data['kategori'] = $this->produk_model->ambilDataSatu('kategori', $id);
     $this->load->view('layout/template_header');
     $this->load->view('layout/template_sidebar');
     $this->load->view('layout/template_topbar');

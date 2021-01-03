@@ -3,7 +3,7 @@
 
   <!-- Page Heading -->
   <div class="d-sm-flex align-items-center justify-content-between mb-4">
-    <h1 class="h3 mb-0 text-gray-800">Tambah Produk</h1>
+    <h1 class="h3 mb-0 text-gray-800"><i class="fas fa-plus"></i> Tambah Produk</h1>
   </div>
 
   <div class="row">
@@ -28,7 +28,7 @@
               <div class="col-lg">
                 <div class="form-group">
                   <label for="stok">Stok</label>
-                  <input type="number" name="nama_produk" class="form-control" id="nama_produk" placeholder="0">
+                  <input type="number" name="stok" class="form-control" id="stok" placeholder="0">
                 </div>
               </div>
             </div>
@@ -51,8 +51,8 @@
               </div>
             </div>
             <div class="form-group">
-              <label for="kategori">Outlet</label>
-              <select class="form-control" name="kategori" id="kategori">
+              <label for="outlet">Outlet</label>
+              <select class="form-control" name="outlet" id="kategori">
                 <option>Pilih Outlet</option>
               </select>
             </div>

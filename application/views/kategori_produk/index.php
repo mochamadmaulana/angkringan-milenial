@@ -30,7 +30,7 @@
                 <td><?= $no++ ?></td>
                 <td><?= $kategori->nama_kategori; ?></td>
                 <td>
-                  <a href="<?= base_url('kategori_produk/ubah/') . $kategori->id ?>" class="badge badge-info"><i class="fas fa-pencil-alt"></i> Ubah</a>
+                  <a href="<?= base_url('kategori_produk/ubah/') . $kategori->id ?>" class="badge badge-success"><i class="fas fa-pencil-alt"></i> Ubah</a>
                   <a href="<?= base_url('kategori_produk/hapus/') . $kategori->id ?>" class="badge badge-danger"><i class="fas fa-trash-alt"></i> Hapus</a>
                 </td>
               </tr>
